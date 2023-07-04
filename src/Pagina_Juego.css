@@ -1,0 +1,117 @@
+.square {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+  }
+  
+  .square:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    background-image: url('./assets/img/PUNTO-GRIS.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    opacity: 0.5;
+  }
+  
+  
+  
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 420px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 30%;
+  margin-left: 5%;
+  background-image: url('./assets/img/fondo_madera.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 5%;
+}
+
+.feed{
+    background-image: url('./assets/img/fondo_pergamino.png');
+    background-position: center;
+    background-size: 220% 160%;; 
+    width: 30%;
+    border-radius: 5%;
+    margin-top: 50px;
+    padding: 25px 0 0 15px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed h1{
+    margin: 0 0 15px 0;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: 'Old London', sans-serif;
+    font-size: 35px;
+}
+.feed p{
+    text-align: left;
+    margin: 15px 0 10px 0;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 18px;
+}
+
+.jugada{
+    background-image: url('./assets/img/fondo_pergamino.png');
+    background-position: center;
+    background-size: 220% 160%;; 
+    width: 30%;
+    border-radius: 5%;
+    margin-top: 50px;
+    padding: 25px 0 0 15px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.jugada h1{
+    margin: 0 0 5px 0;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: 'Old London', sans-serif;
+    font-size: 35px;
+}
+.datos{
+    text-align: left;
+    margin: 5px 0 10px 0;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 20px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    font-size: 19px;
+    margin-right: 10px;
+    width: 60%;
+    margin: 15px 0 5px 0;
+    background-image: none;
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto{
+    margin-top: 25px;
+    font-size: 15px;
+
+}

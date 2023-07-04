@@ -1,0 +1,30 @@
+.Login{
+    font-size: 25px;
+    background-color: wheat;
+    padding: 15px;
+    margin: 50px;
+    border: 1px solid black;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: 'Old London', sans-serif;
+    flex: auto;
+    flex-direction: column;
+}
+
+input{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    flex: auto;
+    flex-direction: column;
+}
+
+input.boton{
+    font-size: 25px;
+    margin-top: 0px;
+    padding: 7px 20px;
+    background-image: none;
+    background-color: wheat;
+}

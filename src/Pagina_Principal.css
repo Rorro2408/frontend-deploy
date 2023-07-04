@@ -1,0 +1,98 @@
+.rectangulo_bajo{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangulo{
+    display: flex;
+    flex-direction:row;
+    width: 85%;
+    height: 430px;
+    background-color: white;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 20px 1px #898585;
+    padding: 15px;
+    
+}
+
+.imagen{
+    width: 300px;
+    height: 410px;
+    background-image: url('./assets/img/Conquista.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10px
+}
+
+#title{
+    font-size: 2.8em;
+    line-height: 1.1;
+    margin: 0px 0px 5px;
+    font-family: 'Old London', sans-serif;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+
+
+.resumen{
+    width: 350px;
+    height: 420px;
+    padding: 0px 20px;
+
+}
+
+.resumen p{
+    text-align: justify;
+}
+
+.botones{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#boton_principal {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+    width: 200px;
+    height: 30px;
+  }
+
+
+.partidas{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    padding: 0px 10px 0px 20px;
+
+
+}
+
+.partida{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+#bonton_unirse{
+    margin-left: 400px;
+    height: 30px;
+}
